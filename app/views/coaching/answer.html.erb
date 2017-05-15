@@ -1,7 +1,16 @@
 <h1>Coaching#answer</h1>
 
 
-<h2><%= @questions %></h2>
-<h2><%= @answers %></h2>
+<div class="class container">
+  <div class="class row">
+    <div class="class col xs 6">
+      <div class="text-center">
+        <h2><%= @questions %></h2>
+        <h2><%= @answers %></h2>
+      </div>
+    </div>
+  </div>
+</div>
+<%= link_to 'ask another questions', ask_path %>
 
-
+link_to
